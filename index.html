@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-header pixel-background">
+          <h1 id="game-title">Nome do jogo vai aqui</h1>
+        </div>
+        <div class="game-main">
+            <div class="game-display">
+              <h4>Aqui tera a palavra a ser digitada</h4>
+              <h4>Aqui tera a nomenclatura</h4>
+              <h4>Aqui tera o input</h4>
+              <h4>Submit</h4>
+
+            </div>
+        </div>
+        <div class="game-status pixel-background">
+          <div class="game-timer game-card">
+            <h1 id="timer">30</h1>
+          </div>
+          <div class="game-lifebar game-card">
+            <h4>Saúde:</h4>
+            <div class="health-bar">
+                <div class="health-fill"></div>
+              </div>
+          </div>
+          <div class="game-image-status game-card">
+            <img src="./assets/gattino-feliz.png" alt="Rosto feliz" id="img-status">
+          </div>
+          <div class="game-message game-card">
+            <h4>Ops, você esqueceu de como utilizar Pascal Case? Clique <a>aqui</a> e veja um artigo sobre!</h4>
+          </div>
+          <div class="game-score game-card">
+            <div class="hits">
+              Acertos: 6
+            </div>
+            <div class="mistakes">
+              <p>Erros: 4</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
